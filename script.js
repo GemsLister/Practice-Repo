@@ -1,3 +1,4 @@
+
 const box1 = document.querySelector(".box1 > div");
 const box2 = document.querySelector(".box2 > div");
 const container2 = document.querySelector(".container2");
@@ -40,4 +41,14 @@ box2.addEventListener("click", () => {
   // reset box1 subtext
   why.textContent = originalWhy;
   why.style.color = ""; 
+  });
+
+const container4Sec = document.querySelector(".container4Sec");
+const signUpBtn = document.querySelector(".sign-up-btn");
+
+signUpBtn.addEventListener("click", () => {
+  container4Sec.style.cssText = `
+    background-color: "green";
+    border-radius: "13px"`;
+
 });
