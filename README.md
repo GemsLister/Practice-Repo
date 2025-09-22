@@ -1,2 +1,1 @@
-# Practice-Repo
-Practice lang yow!
+# Landing-Page
